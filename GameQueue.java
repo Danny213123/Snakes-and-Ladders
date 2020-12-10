@@ -14,9 +14,7 @@ public class GameQueues {
     ArrayList<String> GameQueues = new ArrayList<>();
     
     // Empty Constructor
-    public GameQueues(){}
-    
-    
+    public GameQueues(){} 
     
     /**
 	* Adds a new value into the stack
@@ -25,8 +23,6 @@ public class GameQueues {
     public void enqueue(String toAdd){
         GameQueues.add(toAdd);
     }
-
-
 
     /**
 	* Removes the first value added
@@ -40,8 +36,6 @@ public class GameQueues {
         }
     }
     
-    
-    
     /**
 	* Returns the size of the queue
 	* @returns the size of the queue
@@ -49,9 +43,7 @@ public class GameQueues {
     public int size(){
         return GameQueues.size();
     }
-    
-    
-    
+       
     /**
 	* returns the first value added
 	* @returns at the first value added
@@ -63,9 +55,7 @@ public class GameQueues {
             return null;
         }
     }
-    
-    
-    
+     
     /**
 	* returns the values in the queue
 	* @returns the values in the queue
